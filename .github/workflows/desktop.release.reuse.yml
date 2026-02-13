@@ -172,7 +172,7 @@ jobs:
 
       - run: yarn install --immutable
 
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v7
         with:
           name: assets
           path: packages/desktop/dist
